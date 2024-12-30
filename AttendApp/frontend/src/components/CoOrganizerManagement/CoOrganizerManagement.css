@@ -1,0 +1,64 @@
+.co-organizer-management {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.co-organizer-management h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.co-organizer-management input[type="text"] {
+    width: calc(100% - 110px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.co-organizer-management button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.co-organizer-management button:hover {
+    background-color: #0056b3;
+}
+
+.co-organizer-management .organizer-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.co-organizer-management .organizer-item span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.co-organizer-management .organizer-item label {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.co-organizer-management .organizer-item input[type="checkbox"] {
+    margin-right: 5px;
+}
